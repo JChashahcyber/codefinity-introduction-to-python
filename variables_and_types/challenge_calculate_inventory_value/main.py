@@ -1,6 +1,8 @@
-product_price = 100.0
-stock_quantity = 20
-discountRate = 0.1
-discountedPrice = product_price * (1 -discountRate)
-inventoryValue = discountedPrice * stock_quantity
-print (inventoryValue)
+stock_A = 10
+stock_B = 20
+stock_C = 15
+price_A = 2.5
+price_B = 3.0
+price_C = 4.0
+total_inventory_value = (stock_A * price_A + stock_B * price_B + stock_C * price_C)
+print(total_inventory_value)
